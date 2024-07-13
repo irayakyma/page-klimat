@@ -1,0 +1,175 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+  }
+  
+   body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-size: 1.5em;
+  }
+  
+ 
+
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid cornflowerblue;
+    border-bottom: 5px solid gold;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  p, 
+  li {
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+  }
+
+  h1, 
+  h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-size: 2em;
+   
+  }
+
+  h2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+
+  p,
+  li {
+    line-height: 1.6;
+  }
+
+  ol li a {
+    outline-color: transparent;
+  }
+
+  ol li a:link {
+    color: blue;
+  }
+
+  ol li a:visited {
+    color: blue;
+  }
+
+  ol li a:focus {
+    text-decoration: none;
+    background: white;
+  }
+
+  ol li a:hover {
+  text-decoration: none;
+  background: white;
+}
+
+ol li a:active {
+    background: #6900ff;
+    color: #cdfeaa;
+  }
+
+ul {
+    list-style-type: square;
+    
+}
+
+.container {
+    display: grid;
+    gap: 0.625%;
+  }
+
+.container a {
+    flex: 1;
+    text-decoration: none;
+    outline-color: transparent;
+    text-align: center;
+    line-height: 6;
+    color: black;
+}
+
+.container a:link, 
+.container a:visited,
+.container a:focus {
+    background: palegoldenrod;
+    color: black;
+}
+
+.container a:hover {
+    background: orange;
+}
+
+
+.container a:active {
+    background: darkred;
+    color: white;
+}
+
+ul li a,
+p a {
+  outline-color: transparent;
+}
+
+ul li a:link,
+p a:link {
+  color: blue;
+}
+
+ul li a:visited, 
+p a:visited {
+  color: blue;
+}
+
+ul li a:focus,
+p a:focus {
+  text-decoration: none;
+  background: white;
+}
+
+ul li a:hover,
+p a:hover {
+text-decoration: none;
+background: white;
+}
+
+ul li a:active,
+p a:active {
+  background: #6900ff;
+  color: #cdfeaa;
+}
